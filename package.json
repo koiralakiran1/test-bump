@@ -1,0 +1,20 @@
+{
+  "name": "test-bump",
+  "version": "1.0.0",
+  "description": "adw",
+  "main": "index.js",
+  "scripts": {
+    "start": "command -v act && (cd action && npm run build) && pwd && act --env-file .env --secret-file .secret -b",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/koiralakiran1/test-bump.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/koiralakiran1/test-bump/issues"
+  },
+  "homepage": "https://github.com/koiralakiran1/test-bump#readme"
+}
