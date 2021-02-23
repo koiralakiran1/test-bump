@@ -6,3 +6,5 @@ feat: test commit
 feat: test commit on main-test
 
 feat: local test
+
+chore: test chore on changelog
