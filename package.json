@@ -16,8 +16,5 @@
   "bugs": {
     "url": "https://github.com/koiralakiran1/test-bump/issues"
   },
-  "homepage": "https://github.com/koiralakiran1/test-bump#readme",
-  "release": {
-    "preset": "angular"
-  }
+  "homepage": "https://github.com/koiralakiran1/test-bump#readme"
 }

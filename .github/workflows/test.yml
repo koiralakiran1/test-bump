@@ -22,7 +22,7 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           release_branches: main-test
-          custom_release_rules: chore:patch,Chore:patch,feat:minor,Feat:minor
+          custom_release_rules: chore:patch:Chore Tasks,Chore:patch:Chore Tasks,feat:minor:Features,Feat:minor:Features
           dry_run: true
       - name: Create a GitHub release
         uses: actions/create-release@v1
